@@ -1,5 +1,7 @@
 # O2O-RideShareMatch
-RideShareMatch is an innovative O2O (Online-to-Offline) ride-sharing platform designed to connect passengers and drivers for carpooling, helping users reduce travel costs while promoting eco-friendly transportation. Passengers can post their travel plans, specifying their route and time, and drivers can choose to share their journey with passengers headed in the same direction. By matching passengers with drivers, RideShareMatch makes commuting more affordable, sustainable, and efficient for everyone.
+RideShareMatch is an innovative O2O (Online-to-Offline) ride-sharing platform designed to connect passengers and drivers for carpooling, helping users reduce travel costs while promoting eco-friendly transportation. 
+Passengers can post their travel plans, specifying their route and time, and drivers can choose to share their journey with passengers headed in the same direction. 
+By matching passengers with drivers, RideShareMatch makes commuting more affordable, sustainable, and efficient for everyone.
 
 Key Features:
 
