@@ -13,7 +13,7 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 import java.util.List;
 
-public class ResponseVO<T> implements Serializable {
+public class  ResponseVO<T> implements Serializable {
 
 
     public ResponseVO() {
