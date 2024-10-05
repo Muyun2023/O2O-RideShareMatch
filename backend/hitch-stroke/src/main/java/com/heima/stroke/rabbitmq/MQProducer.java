@@ -10,7 +10,7 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-
+//TODO:任务4.2-发送邀请消息
 @Component
 public class MQProducer {
     private final static Logger logger = LoggerFactory.getLogger(MQProducer.class);
@@ -25,8 +25,7 @@ public class MQProducer {
     public void sendOver(StrokeVO strokeVO) {
         String mqMessage = JSON.toJSONString(strokeVO);
         logger.info("send timeout msg:{}",mqMessage);
-        //TODO:任务4.2-发送邀请消息
-
+        rabbitTemplate.convertAndSend(RabbitConfig.STROKE_OVER_QUEUE_EXCHANGE, RabbitConfig.STROKE_OVER_KEY, mqMessage);
     }
 
 
